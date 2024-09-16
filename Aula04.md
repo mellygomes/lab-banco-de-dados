@@ -28,11 +28,20 @@ O sistema operacional faz gerenciamento de recursos:
 #### Documentação do SQL -> <https://dev.mysql.com/doc/>
 
 ### Sublinguagens do SQL
-- DQL -> 
-- DML ->
-- DDL -> create, alter, drop;
-- DCL ->
-- DTL ->
+- DQL (Data Query Language)-> select                                          
+  Se refere a comsulta de registros
+
+- DML (Data Manipulation Language)-> insert, update, delete                                    
+  Se refere a manipulação dos **registros**
+ 
+- DDL (Data Dafinition Language) -> create, alter, drop;                                     
+  Se refere a criação e manipulação das estruturas dos objets do banco de dados
+
+- DCL (Data Control Language) -> grant, revoke                                  
+  Se refere às permissões dos pbjetos no banco de dados
+
+- TCL (Transaction Control Language) Language) -> begin transaction, commit, rollback, savepoint                               
+Se refere ao controle de transações realizadas no banco de dados
 
 *MySQL se refere ao banco de dados de "schema"*
 
